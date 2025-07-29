@@ -1,5 +1,5 @@
 {% set name = "scipyconference" %}
-{% set version = "0.2" %}
+{% set version = "0.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scipyconference-{{ version }}.tar.gz
-  sha256: 98312c24d71ba2e6f90e61b165ccbe5ef791809c1f8e4a828ea6771904a4e154
+  sha256: 885185abe745ff2039881057189d2db34dc8eab46d14aa24f33a6ade2ab603aa
 
 build:
   entry_points:
